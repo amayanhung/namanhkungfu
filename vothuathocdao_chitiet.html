@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- color of address bar in mobile browser -->
+  <meta name="theme-color" content="#28292C">
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="img/thumbnail.ico" type="image/x-icon">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- mapbox css -->
+  <link href="css/plugins/mapbox-style.css" rel='stylesheet'>
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Nam Anh Kung Fu</title>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0" nonce="SnFygVfo"></script>
+
+</head>
+
+<body>
+
+  <div class="qrt-app">
+    <div class="qrt-preloader">
+      <div class="qrt-preloader-content">
+        <div class="qrt-logo">
+          <img src="img/logo-load.png" alt="vinhxuanphai">
+        </div>
+        <div id="preloader" class="qrt-preloader-load"></div>
+      </div>
+    </div>
+    <div id="cursor" class="qrt-cursor">
+      <div></div>
+      <div class="qrt-follower"><i class="fas fa-circle-notch"></i></div>
+    </div>
+    <div class="qrt-top-bar">
+      <a href="home-slider.html" class="qrt-symbol qrt-cursor-scale qrt-anima-link"><img src="img/logo-left.png" alt="Symbol"></a>
+      <a href="home-slider.html" class="qrt-logo qrt-cursor-color qrt-cursor-scale qrt-anima-link">
+        <img src="img/logo.png" alt="vinhxuanphai">
+      </a>
+      <div class="qrt-menu">
+        <div id="qrt-dynamic-menu" class="qrt-dynamic-menu">
+          <nav>
+            <ul>
+              <li>
+                <a class="qrt-mobile-fix" href="trangchu.html">TRANG CHỦ</a>
+              </li>
+              <li class="current-menu-item">
+                <a class="qrt-mobile-fix">VỀ CHÚNG TÔI</a>
+                <ul>
+                  <li><a href="vechungtoi.html">Về Chúng Tôi</a></li>
+                  <li class="qrt-this-page"><a href="vothuat.html">Võ Thuật</a></li>
+                  <li><a href="vohoc.html">Võ Học</a></li>
+                  <li><a href="vodao.html">Võ Đạo</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="qrt-mobile-fix">VÕ ĐƯỜNG</a>
+                <ul>
+                  <li><a href="vinhxuanquyen.html">Vịnh Xuân Quyền</a></li>
+                  <li><a href="pakmei.html">Pak Mei</a></li>
+                  <li><a href="thaicucquyen.html">Thái Cực Quyền</a></li>
+                  <li><a href="voduong.html">Võ Đường</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="qrt-mobile-fix" href="thuvien.html">THƯ VIỆN</a>
+              </li>
+              <li>
+                <a class="qrt-mobile-fix" href="sukien.html">SỰ KIỆN</a>
+              </li>
+              <li>
+                <a class="qrt-mobile-fix" href="lienhe.html">LIÊN HỆ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="qrt-buttons">
+        <a href="contact-2.html" class="qrt-btn qrt-btn-md qrt-btn-color qrt-send-request qrt-anima-link qrt-mr-20"><span>GỬI THÔNG TIN</span></a>
+        <div class="qrt-menu-btn qrt-cursor-color qrt-cursor-scale"><span></span></div>
+        <div class="qrt-search-btn qrt-cursor-color qrt-cursor-scale"><i class="fas fa-search"></i></div>
+        <div class="qrt-info-btn qrt-cursor-color qrt-cursor-scale"><span></span></div>
+      </div>
+      <div class="qrt-search">
+        <form>
+          <input type="text" placeholder="Enter search query">
+        </form>
+      </div>
+      <div class="qrt-info" id="qrt-scroll-info">
+        <div class="qrt-info-frame">
+          <ul class="qrt-table">
+            <li>
+              <h5>Đất Nước</h5><span>Việt Nam</span>
+            </li>
+            <li>
+              <h5>Thành Phố</h5><span>Hồ Chí Minh</span>
+            </li>
+            <li>
+              <h5>Tổ Đường</h5><span style="float:right; text-align: right;">201 Hoàng Hoa Thám</br>P.13, Quận Tân Bình</span>
+            </li>
+            <li>
+              <h5>Email</h5><span><a class="qrt-cursor-scale qrt-cursor-color" href="mailto:hotro@vinhxuanphai.com" data-no-swup>hotro@vinhxuanphai.com</a></span>
+            </li>
+            <li>
+              <h5>Hotline</h5><span><a class="qrt-cursor-scale qrt-cursor-color" href="#." data-no-swup>(+84)908 809 833</br>(+84)909 292 959</a></span>
+            </li>
+          </ul>
+          <div class="qrt-divider"></div>
+          <div class="qrt-social-links">
+            <div class="qrt-social-links">
+              <h5 class="qrt-mb-40">Mạng xã hội của chúng tôi</h5>
+              <ul class="qrt-social-list">
+                <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="qrt-divider"></div>
+          <div class="qrt-instagram">
+            <h5 class="qrt-mb-40">Instagram</h5>
+            <div class="qrt-instagram-frame">
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/7.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/8.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/9.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/10.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/11.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/12.jpg" alt="instagram post">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="qrt-divider"></div>
+          <div class="qrt-subscribe">
+            <h5 class="qrt-mb-40">Đăng Ký Nhận Thông Tin</h5>
+            <form>
+              <input type="text" placeholder="Email">
+              <button type="submit" class="qrt-btn qrt-btn-sm"><i class="far fa-paper-plane"></i></button>
+            </form>
+          </div>
+          <div class="qrt-divider"></div>
+          <div class="qrt-copy">
+            <!-- author ( Please! Do not delete it. You are awesome! :) -->
+            <div>© vinhxuanphai.<br>Thiết kế bởi:&#160; <a class="qrt-cursor-scale qrt-cursor-color" href="#" target="_blank">Bion Studio</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="qrt-left-bar">
+      <div class="qrt-current-page-title"></div>
+      <div class="qrt-change-language">
+        <a href="#." class="qrt-leng qrt-cursor-color qrt-cursor-scale">EN</a>
+        <a href="#." class="qrt-leng qrt-active">VN</a>
+      </div>
+    </div>
+    <div class="qrt-curtain"></div>
+    <div id="qrt-dynamic-content" class="qrt-dynamic-content">
+      <div class="qrt-content" id="qrt-scroll-content">
+        <div class="qrt-half-content-frame">
+          <div class="qrt-left">
+            <div class="row">
+              <div class="col-lg-12">
+
+                <h2 class="qrt-mb-40">KHÍ CÔNG LUẬN</h2>
+
+              </div>
+              <div class="col-lg-12">
+
+                <img src="img/blog/0.jpg" alt="thumbnail" class="qrt-just-img">
+                <div class="qrt-post-date qrt-mb-40">
+                  <span><i class="far fa-user"></i>Admin</span>
+                  <span><i class="far fa-clock"></i> 22.08.2010</span>
+                </div>
+
+              </div>
+              <div class="col-lg-12 textjst qrt-mb-40">
+                <p>Nền văn minh khoa học hiện đại, dù đã đạt được một khối lượng tri thức vô cùng đồ sộ, đến nay vẫn chưa có được quan niệm thỏa đáng về một nguyên lý bao trùm chung nhất, chi phối toàn bộ các mảng kiến thức về vũ trụ, điều mà tư tưởng Đông Phương đã có được đáp án với quan niệm về “Khí”.</p>
+
+                <p class="qrt-mb-40">Tuy vậy, giữa hai hệ thống tư duy vẫn có điểm đồng : đó là sự cảm nhận trực giác rằng cơ thể con người hợp thành một Tiểu Vũ Trụ nằm trong Đại Vũ Trụ và vận hành theo cùng qui luật vận hành của Đại Vũ Trụ. Có câu tục ngữ Trung Quốc đã nói : “Hiểu được Tiểu Vũ Trụ sẽ có thể hiểu được Đại Vũ Trụ”.</p>
+
+
+                <blockquote class="qrt-mb-40">
+                  “Khí” là cái tinh túy cốt lõi bao trùm trời, đất và là nguồn gốc phát sinh vạn vật. Khí hạo nhiên được phân ra 3 dạng :</br>
+                  – Thiên Khí, thuộc Dương, chi phối Địa cầu và được thể hiện qua tổng thể các sự tác động của Nhật, Nguyệt cùng các vì tinh tú khác đến sinh linh ở Địa cầu.</br>
+                  – Địa khí, thuộc Âm, được thể hiện bằng năng lượng phát sinh từ Địa cầu tạo ra các dưỡng chất cần thiết để duy trì sự sống từ Thiên Khí.</br>
+                  – Nhân Khí, tức cái Sinh khí luân chuyển bên trong cơ thể con người, vốn là sự kết hợp hài hòa giữa Thiên Khí và Địa Khí. Đó là Thiên sinh, Địa dưỡng, Nhân thành.
+                </blockquote>
+                <p class="qrt-mb-40">Lý giải về sự xuất hiện của những con người đầu tiên đã được đề cập tới trong các bản viết rất cổ và rất trùng khớp với những thuyết Vũ  trụ học và Sinh học nổi tiếng nhất : “Những sinh vật nguyên thủy vốn hãy còn đơn sơ, được sinh ra do Âm Dương giao hòa từ phóng xạ vũ trụ và đã trải qua nhiều biến đổi tiến hóa trong hàng triệu, triệu năm mới trở thành những giống người đầu tiên trên Trái đất”. Sinh Lực bên trong mỗi con người một phần là do thừa hưởng từ cha mẹ sinh ra (Tiên thiên khí), một phần là do sự kết hợp của Thiên khí và Địa khí (dưới dạng không khí, thức ăn và các tia phóng xạ) được chuyển hóa tại ngũ tạng (các cơ quan chính yếu : Tâm, Can, Tì, Phế, Thận) (Hậu thiên khí). Sinh lực hay Khí lực, theo công dụng, lại được chia thành Vệ khí (để bảo vệ cơ thể) và Vinh khí (để nuôi dưỡng cơ nhục).</br>
+                Tiên thiên khí, được hình thành từ lúc thụ thai, giữ vai trò trọng yếu trong suốt cuộc đời của một người. Nếu lúc sinh ra mà tiên thiên khí yếu ớt hoặc không đầy đủ thì sau này ắt phải lắm tật bệnh. Bởi có câu : “Tiên thiên bất túc, hậu thiên bất nghi”. Tuy không tương đồng hoàn toàn nhưng có thể thấy điều này có điểm gần với lý thuyết về gien di truyền. Tiên thiên khí của một người sẽ suy yếu dần theo năm tháng cuộc đời cho đến lúc cạn kiệt và con người phải chết. Thuật trường sinh bất lão của các Đạo sĩ Lão giáo (các bậc Chân Nhân) là phương pháp tập luyện nhằm làm chậm  quá trình lão hóa hay bồi bổ khí lực cũng tương tự như những phương pháp tập luyện của Võ Học.</br>
+                Hậu thiên khí cũng quan trọng không kém vì nó có thể bổ khuyết cho Tiên thiên khí thông qua không khí hít thở và các thức ăn được hấp thụ. Sách Hoàng Đế viết : “Người ăn không đúng cách thì sống không đúng phép dưỡng sinh”. Ở đây phải hiểu là ăn uống phải biết chọn lựa một cách phù hợp. Vì thế, trong Đông Y, việc hấp thụ các loại dược thảo luôn được chú trọng và áp dụng trong chữa trị. Sự hiểu biết thâm sâu về Thiên khí và Địa khí còn giúp người xưa lập ra thuật Phong Thủy, là ngành ứng dụng có khả năng cải sửa toàn bộ hoặc một phần cái Nghiệp hay số mệnh của con người.</br>
+                Cũng từ quan niệm trên về Khí, tình trạng bệnh tật hay khỏe mệnh của cơ thể con người được phương Đông xem như là tình trạng mất quân bình hoặc quân bình khí lực Âm Dương.</p>
+                <h3 class="qrt-mb-40">Định nghĩa về Khí Công:</h3>
+                <p>Nguyên văn, từ “Khí công” có nghĩa là công phu rèn luyện Khí lực. Khí công có nguồn gốc từ những phương pháp cổ xưa từ 3000 năm trước nhằm rèn luyện dưỡng sinh trường thọ. Dù một số kiến thức về châm cứu và bài tập dưỡng sinh đã được phổ biến đại trà, các bí quyết về khí công từ trước đến gần đây vẫn chỉ được giới hạn lưu truyền trong nội bộ các môn phái võ thuật và các tôn giáo Phật, Lão. Mãi gần 30 năm sau này, các bí quyết khí công mới được phổ biến rộng rãi hơn qua sách, báo hoặc truyền dạy.</br>
+                Kỳ thực, Khí Công có rất nhiều công dụng, song trong chương trình giảng dạy lớp Khí Công, chúng tôi nhằm vào tác dụng trị bệnh tức là khía cạnh liệu pháp. Người học được tập theo một hệ thống kỹ thuật nhằm luyện khí, tụ và tán khí khắp châu thân, cường kiện được sức khỏe. Vì tập luyện Khí Công không đòi hỏi dùng nhiều sức lực nên mọi người ở mọi tình trạng thể lực đều có thể học, tập được. Khí công không những hữu ích cho người có bệnh mà còn có tác dụng phòng ngừa bệnh tật cho người đang khỏe mạnh.</p>
+                <h3 class="qrt-mb-40">Hiệu quả của Khí Công:</h3>
+                <p class="qrt-mb-40">
+                  – Điều hòa giấc ngủ.</br>
+                  – Tăng cường khả năng tập trung.</br>
+                  – Giảm các cơn nhức đầu.</br>
+                  – Kiểm soát các vấn đề biến dưỡng chất liên quan đến trọng lượng cơ thể (ốm yếu – béo phì).</br>
+                  – Phát triển sự dẻo dai bền bỉ.</br>
+                  – Cải thiện chức năng hô hấp, làm tăng dung lượng hít thở.</br>
+                  – Giải tỏa căng thẳng, đem lại trạng thái an tĩnh.</br>
+                  – Giảm đau nhức khớp (bệnh đau lưng, thấp khớp v.v…).</br>
+                  – Tăng cường hệ miễn nhiễm, khả năng đề kháng cơ thể.</br>
+                  – Tạo nguồn sinh lực dồi dào.</br>
+                  v.v.v...</br>
+                  <span>Dĩ nhiên, hiệu quả còn tùy theo từng người vì Khí Công là nhằm tái lập sự quân bình Âm Dương, sự vận hành tự nhiên của cơ thể.</span>
+                </p>
+                 <h3 class="qrt-mb-40">Hiệu quả của Khí Công:</h3>
+
+                <img src="img/blog/4.jpg" alt="thumbnail" class="qrt-just-img">
+                <p class="qrt-mb-40">
+                  <h4>Chương trình:</h4></br>
+                  <spam>Gồm 3 phần:</span></br>
+                  1. Các động tác nhu công cơ bản.</br>
+                  2. Bát đoạn cẩm.</br>
+                  3. Các bài quyền và động tác bổ trợ.</br>
+                  Các động tác nhu công cơ bản giống như các động tác của môn phái Vịnh Xuân nhưng được diễn tập nhẹ nhàng và chậm rãi hơn.</br>
+                  Phần trọng tâm của giáo trình là Bát đoạn cẩm. Tuy một số động tác nhu công cơ bản có luyện khí lực, cách tụ khí nhưng các động tác của Bát đoạn cẩm chuyên sâu hơn : mỗi đoạn chuyên luyện một phần riêng của cơ thể và có công dụng khác nhau như luyện tập trung tinh thần, kích thích tiêu hóa, giải tỏa căng thẳng và đả thông các huyệt đạo bị bế tắc gây ngăn trở khí lực lưu thông.</br>
+                  Khi đã thanh lọc được khí huyết và tụ khí tại các bộ phận quan yếu cần phải vận hành khí khắp châu thân bằng cách tập các bài quyền đặc thù của Vịnh Xuân như bài Tiểu Hình Ý – Động bộ.
+                </p>
+                <div class="">
+                  <p class="qrt-mb-30"></p>
+                  <h5 class="qrt-mb-20">THÍCH & CHIA SẺ THÔNG TIN!!!</h5>
+                  <div class="buttons">
+                    <div class="fb-like" data-href="https://www.facebook.com/vxpfanpage" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+                    <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 55px; height: 20px;" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.0edc1ef9f8b82d9b79c6115bda79f63f.vi.html#dnt=false&amp;id=twitter-widget-0&amp;lang=vi&amp;original_referer=https%3A%2F%2Fvinhxuanphai.com%2Fkhi-cong-luan.html&amp;size=m&amp;text=Kh%C3%AD%20C%C3%B4ng%20Lu%E1%BA%ADn%20-%20V%E1%BB%8Bnh%20Xu%C3%A2n%20Ph%C3%A1i&amp;time=1616043818166&amp;type=share&amp;url=https%3A%2F%2Fvinhxuanphai.com%2Fkhi-cong-luan.html" data-url="https://vinhxuanphai.com/khi-cong-luan.html"></iframe>
+
+                    <div style="position: absolute; width: 450px; left: -10000px;" id="___plusone_0">
+                      <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0" vspace="0" width="100%" id="I0_1616043817717" name="I0_1616043817717" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;hl=vi&amp;origin=https%3A%2F%2Fvinhxuanphai.com&amp;url=https%3A%2F%2Fvinhxuanphai.com%2Fkhi-cong-luan.html&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_GB.00eA87VqQ80.O%2Fam%3DwQ%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAGLTcCM-VI8JCWxJu7YH9of8jRZGgvQS4g%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1616043817717&amp;_gfid=I0_1616043817717&amp;parent=https%3A%2F%2Fvinhxuanphai.com&amp;pfname=&amp;rpctoken=71622941" data-gapiattached="true"></iframe>
+                    </div>
+                    <div class="g-plusone" data-size="medium" data-gapiscan="true" data-onload="true" data-gapistub="true"></div>
+                      <script type="text/javascript">
+                        window.___gcfg = {lang: 'vi'};
+
+                        (function() {
+                          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                          po.src = 'https://apis.google.com/js/platform.js';
+                          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                        })();
+                      </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="qrt-divider qrt-space-fix"></div>
+
+            <div class="row qrt-mb-40">
+              <div class="col-lg-12">
+
+                <h3 class="qrt-mb-40">PHỔ BIẾN</h3>
+
+              </div>
+              <div class="col-lg-12">
+
+                <div class="swiper-container qrt-pop-post-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                      <div class="qrt-post-frame">
+                        <a href="publication.html" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                          <img src="img/blog/5.jpg" alt="thumbnail">
+                          <div class="qrt-post-date qrt-mb-40">
+                            <span><i class="far fa-user"></i>Admin</span>
+                            <span><i class="far fa-clock"></i> 22.08.2020</span>
+                          </div>
+                        </a>
+                        <div class="qrt-post-descr">
+                          <div>
+                            <h4 class="qrt-cursor-color qrt-post-title"><a href="vothuathocdao_chitiet.html" class="qrt-anima-link">Giáo Trình Đào Tạo</a></h4>
+                            <div class="qrt-port-short-text">“…Nền tảng tinh hoa của Vịnh Xuân Phái bao gồm Ngũ Hình, Tam Tĩnh và Bát Môn… Ba giai đoạn này đều quan trọng như nhau, nếu thiếu một thì không còn là Vịnh Xuân nữa… Vịnh Xuân là không thừa, không thiếu…” (Đại sư Nguyên Tế Công) Đúng với tinh thần của lời vàng […]</div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                      <div class="qrt-post-frame">
+                        <a href="publication.html" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                          <img src="img/blog/6.jpg" alt="thumbnail">
+                          <div class="qrt-post-date">
+                            <span><i class="far fa-user"></i>Admin</span>
+                            <span><i class="far fa-clock"></i> 02.01.2021</span>
+                          </div>
+                        </a>
+                        <div class="qrt-post-descr">
+                          <div>
+                            <h4 class="qrt-cursor-color qrt-post-title"><a href="vothuathocdao_chitiet.html" class="qrt-anima-link">Lễ bàn giao, thông xe Cầu Tam Nguyên</a></h4>
+                            <div class="qrt-port-short-text">Ngày 02.01.2021 Liên Đoàn Võ Thuật Quốc Tế Vịnh Xuân Nam Anh vui mừng bàn giao cho nhân dân xã Lộc Quang cây cầu nối liền hai bờ ấp Tam Nguyên. Với sự cố gắng xây dựng hoàn thành cây cầu trước Tết Tân Sửu. Hy vọng sẽ giúp cho người dân và các em […]</div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                      <div class="qrt-post-frame">
+                        <a href="publication.html" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                          <img src="img/blog/7.jpg" alt="thumbnail">
+                          <div class="qrt-post-date">
+                            <span><i class="far fa-user"></i>Admin</span>
+                            <span><i class="far fa-clock"></i> 22.08.2010</span>
+                          </div>
+                        </a>
+                        <div class="qrt-post-descr">
+                          <div>
+                            <h4 class="qrt-cursor-color qrt-post-title"><a href="vothuathocdao_chitiet.html" class="qrt-anima-link">Khuyên thủ – Đỉnh cao Vịnh Xuân chiến đấu</a></h4>
+                            <div class="qrt-port-short-text">… Một trong các phương pháp luyện tập được coi là đặc thù và cao cấp của môn phái là bộ Tri thủ gồm có Khuyên-Niêm và Tri không thể thiếu trong sự khổ luyện cuả một cao đồ Vịnh Xuân Phái. Cả 3 giai đoạn luyện tập đều phải được bậc thâỳ tận tâm dẫn dắt mới mong sở đắc quyền thuật trấn môn ”Quyền đả Quảng Đông toàn tỉnh” Tôi xin trân trọng trình bày cùng các bạn Vịnh Xuân Việt Nam.</div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-6">
+
+                <div class="swiper-pp-pagination qrt-cursor-color qrt-cursor-scale"></div>
+
+              </div>
+              <div class="col-6">
+
+                <div class="qrt-slider-nav">
+                  <!-- prev -->
+                  <div class="qrt-slider-prev qrt-pp-prev qrt-cursor-color qrt-cursor-scale"><i class="fas fa-arrow-left"></i></div>
+                  <!-- next -->
+                  <div class="qrt-slider-next qrt-pp-next qrt-cursor-color qrt-cursor-scale"><i class="fas fa-arrow-right"></i></div>
+                </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="qrt-call-to-action">
+                  <h4>GHI DANH</h4>
+                  <a class="qrt-btn qrt-btn-sm qrt-btn-color qrt-cursor-scale qrt-anima-link" href="dangky.html"><span>ĐĂNG KÝ NHANH</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="fixed" class="qrt-right">
+            <div class="qrt-half-banner qrt-left-align qrt-animated-show">
+              <div class="qrt-image-frame">
+                <img src="img/banners/banner5.jpg" alt="banner">
+              </div>
+              <div class="qrt-overlay">
+                <div class="qrt-scroll-hint"><span></span></div>
+                <div class="qrt-banner-title">
+                  <h2 class="qrt-white qrt-mb-10">VÕ THUẬT</h2>
+                  <div class="qrt-divider-2"></div>
+                  <div class="qrt-text qrt-white qrt-mb-20">Sống thuận lẽ Càn Khôn khi đã hiểu được lý Sinh Tử và biết tôn trọng cái Nghiệp của mỗi người và Cộng Nghiệp của mọi người.</div><a href="lienhe.html" class="qrt-btn qrt-btn-md qrt-btn-color qrt-anima-link"><span>LIÊN HỆ</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- anime js -->
+  <script src="js/plugins/anime.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- progressbar js -->
+  <script src="js/plugins/progressbar.min.js"></script>
+  <!-- smooth scrollbar js -->
+  <script src="js/plugins/smooth-scrollbar.min.js"></script>
+  <!-- overscroll js -->
+  <script src="js/plugins/overscroll.min.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- swup js -->
+  <script src="js/plugins/swup.min.js"></script>
+  <!-- mapbox js -->
+  <script src="js/plugins/mapbox.min.js"></script>
+
+  <!-- main js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

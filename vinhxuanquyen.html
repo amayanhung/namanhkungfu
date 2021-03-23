@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- color of address bar in mobile browser -->
+  <meta name="theme-color" content="#28292C">
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="img/thumbnail.ico" type="image/x-icon">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- mapbox css -->
+  <link href="css/plugins/mapbox-style.css" rel='stylesheet'>
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Nam Anh Kung Fu</title>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0" nonce="SnFygVfo"></script>
+
+</head>
+
+<body>
+
+  <div class="qrt-app">
+    <div class="qrt-preloader">
+      <div class="qrt-preloader-content">
+        <div class="qrt-logo">
+          <img src="img/logo-load.png" alt="vinhxuanphai">
+        </div>
+        <div id="preloader" class="qrt-preloader-load"></div>
+      </div>
+    </div>
+    <div id="cursor" class="qrt-cursor">
+      <div></div>
+      <div class="qrt-follower"><i class="fas fa-circle-notch"></i></div>
+    </div>
+    <div class="qrt-top-bar">
+      <a href="home-slider.html" class="qrt-symbol qrt-cursor-scale qrt-anima-link"><img src="img/logo-left.png" alt="Symbol"></a>
+      <a href="home-slider.html" class="qrt-logo qrt-cursor-color qrt-cursor-scale qrt-anima-link">
+        <img src="img/logo.png" alt="vinhxuanphai">
+      </a>
+      <div class="qrt-menu">
+        <div id="qrt-dynamic-menu" class="qrt-dynamic-menu">
+          <nav>
+            <ul>
+              <li>
+                <a class="qrt-mobile-fix" href="trangchu.html">TRANG CHỦ</a>
+              </li>
+              <li>
+                <a class="qrt-mobile-fix">VỀ CHÚNG TÔI</a>
+                <ul>
+                  <li><a href="vechungtoi.html">Về Chúng Tôi</a></li>
+                  <li><a href="vothuat.html">Võ Thuật</a></li>
+                  <li><a href="vohoc.html">Võ Học</a></li>
+                  <li><a href="vodao.html">Võ Đạo</a></li>
+                </ul>
+              </li>
+              <li class="current-menu-item">
+                <a class="qrt-mobile-fix">VÕ ĐƯỜNG</a>
+                <ul>
+                  <li class="qrt-this-page"><a href="vinhxuanquyen.html">Vịnh Xuân Quyền</a></li>
+                  <li><a href="pakmei.html">Pak Mei</a></li>
+                  <li><a href="thaicucquyen.html">Thái Cực Quyền</a></li>
+                  <li><a href="voduong.html">Võ Đường</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="qrt-mobile-fix" href="thuvien.html">THƯ VIỆN</a>
+              </li>
+              <li>
+                <a class="qrt-mobile-fix" href="sukien.html">SỰ KIỆN</a>
+              </li>
+              <li>
+                <a class="qrt-mobile-fix" href="lienhe.html">LIÊN HỆ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="qrt-buttons">
+        <a href="contact-2.html" class="qrt-btn qrt-btn-md qrt-btn-color qrt-send-request qrt-anima-link qrt-mr-20"><span>GỬI THÔNG TIN</span></a>
+        <div class="qrt-menu-btn qrt-cursor-color qrt-cursor-scale"><span></span></div>
+        <div class="qrt-search-btn qrt-cursor-color qrt-cursor-scale"><i class="fas fa-search"></i></div>
+        <div class="qrt-info-btn qrt-cursor-color qrt-cursor-scale"><span></span></div>
+      </div>
+      <div class="qrt-search">
+        <form>
+          <input type="text" placeholder="Enter search query">
+        </form>
+      </div>
+      <div class="qrt-info" id="qrt-scroll-info">
+        <div class="qrt-info-frame">
+          <ul class="qrt-table">
+            <li>
+              <h5>Đất Nước</h5><span>Việt Nam</span>
+            </li>
+            <li>
+              <h5>Thành Phố</h5><span>Hồ Chí Minh</span>
+            </li>
+            <li>
+              <h5>Tổ Đường</h5><span style="float:right; text-align: right;">201 Hoàng Hoa Thám</br>P.13, Quận Tân Bình</span>
+            </li>
+            <li>
+              <h5>Email</h5><span><a class="qrt-cursor-scale qrt-cursor-color" href="mailto:hotro@vinhxuanphai.com" data-no-swup>hotro@vinhxuanphai.com</a></span>
+            </li>
+            <li>
+              <h5>Hotline</h5><span><a class="qrt-cursor-scale qrt-cursor-color" href="#." data-no-swup>(+84)908 809 833</br>(+84)909 292 959</a></span>
+            </li>
+          </ul>
+          <div class="qrt-divider"></div>
+          <div class="qrt-social-links">
+            <div class="qrt-social-links">
+              <h5 class="qrt-mb-40">Mạng xã hội của chúng tôi</h5>
+              <ul class="qrt-social-list">
+                <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="qrt-divider"></div>
+          <div class="qrt-instagram">
+            <h5 class="qrt-mb-40">Instagram</h5>
+            <div class="qrt-instagram-frame">
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/7.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/8.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/9.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/10.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/11.jpg" alt="instagram post">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">
+                  <img src="img/projects/thumbnails/12.jpg" alt="instagram post">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="qrt-divider"></div>
+          <div class="qrt-subscribe">
+            <h5 class="qrt-mb-40">Đăng Ký Nhận Thông Tin</h5>
+            <form>
+              <input type="text" placeholder="Email">
+              <button type="submit" class="qrt-btn qrt-btn-sm"><i class="far fa-paper-plane"></i></button>
+            </form>
+          </div>
+          <div class="qrt-divider"></div>
+          <div class="qrt-copy">
+            <!-- author ( Please! Do not delete it. You are awesome! :) -->
+            <div>© vinhxuanphai.<br>Thiết kế bởi:&#160; <a class="qrt-cursor-scale qrt-cursor-color" href="#" target="_blank">Bion Studio</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="qrt-left-bar">
+      <div class="qrt-current-page-title"></div>
+      <div class="qrt-change-language">
+        <a href="#." class="qrt-leng qrt-cursor-color qrt-cursor-scale">EN</a>
+        <a href="#." class="qrt-leng qrt-active">VN</a>
+      </div>
+    </div>
+    <div class="qrt-curtain"></div>
+    <div id="qrt-dynamic-content" class="qrt-dynamic-content">
+      <div class="qrt-content" id="qrt-scroll-content">
+        <div class="qrt-half-content-frame">
+          <div class="qrt-left">
+
+            <div class="row qrt-p-0-40">
+              <div class="col-lg-12">
+
+                <div class="qrt-page-cover">
+                  <img src="img/banners/cover3.jpg" alt="our office">
+                  <div class="qrt-about-info qrt-right-position">
+                    <div class="qrt-cover-info">
+                      <ul class="qrt-table">
+                        <li>
+                          <h4 class="qrt-white">VỊNH XUÂN CHÍNH THỐNG PHÁI</h4>
+                        </li>
+                        <li>
+                          <h5 class="qrt-white">TỔ ĐƯỜNG:</h5><span>201 Hoàng Hoa Thám – Phường 13, Quận Tân Bình</span>
+                        </li>
+                        <li>
+                          <h5 class="qrt-white">VÕ ĐƯỜNG:</h5><span>số 2F – Nguyễn Hiến Lê, P.13 – Quận Tân Bình (NVHLĐ)</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row qrt-mb-20">
+              <div class="col-lg-4">
+
+                <h3>VỊNH XUÂN QUYỀN</h3><span>Lấy nhu để thắng cương.</span>
+
+              </div>
+              <div class="col-lg-8 qrt-mb-25 textjst">
+
+                <p>Phong cách Kung Fu Vịnh Xuân quyền bắt nguồn từ Ng Mui, một nữ tu sĩ Phật giáo, một võ sư lão luyện và là người sáng lập ra môn phái Bạch hạc. Cô cũng là một trong Ngũ trưởng lão, người đã thoát khỏi sự tàn phá của Thiếu Lâm Tự dưới tay quân Thanh. Ngay sau đó, Ng Mui đã gặp một phụ nữ trẻ tên là Yim Wing Chun, người mà cô ấy đã nhận dưới sự dạy dỗ của mình. Ng Mùi xin tiếp tục đặt tên cho phong cách cách mạng mới để vinh danh học trò của mình.</p>
+
+                <p>Phong cách Kung Fu Vịnh Xuân quyền bắt nguồn từ Ng Mui, một nữ tu sĩ Phật giáo, một võ sư lão luyện và là người sáng lập ra môn phái Bạch hạc. Cô cũng là một trong Ngũ trưởng lão, người đã thoát khỏi sự tàn phá của Thiếu Lâm Tự dưới tay quân Thanh. Ngay sau đó, Ng Mui đã gặp một phụ nữ trẻ tên là Yim Wing Chun, người mà cô ấy đã nhận dưới sự dạy dỗ của mình. Ng Mùi xin tiếp tục đặt tên cho phong cách cách mạng mới để vinh danh học trò của mình.</p>
+
+              </div>
+              <div class="col-lg-12">
+
+                <blockquote>
+                  Nền tảng tinh hoa của Vịnh Xuân Phái gồm có Ngũ Hình, Tam Tĩnh và Bát Môn… Ba giai đoạn này đều quan trọng như nhau, nếu thiếu một thì không còn là Vịnh Xuân nữa… Vịnh Xuân là không thừa, không thiếu…
+                </blockquote>
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+
+                <div class="qrt-team-member">
+                  <a href="about-me.html" class="qrt-cursor-scale qrt-team-item qrt-anima-link">
+                    <img src="img/team/vinhxuanquyen.jpg" alt="team member">
+                  </a>
+                  <div class="qrt-team-member-description">
+                    <div class="qrt-member-name">
+                      <h4 class="qrt-white qrt-qrt-mb-5">GIÁO TRÌNH VỊNH XUÂN QUYỀN</h4>
+                    </div>
+                    <a href="phaivo_chitiet.html" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-4">
+
+                <div class="qrt-team-member">
+                  <a href="about-me.html" class="qrt-cursor-scale qrt-team-item qrt-anima-link">
+                    <img src="img/team/mocnhan.jpg" alt="team member">
+                  </a>
+                  <div class="qrt-team-member-description">
+                    <div class="qrt-member-name">
+                      <h4 class="qrt-white qrt-qrt-mb-5">MỘC NHÂN VỊNH XUÂN</h4>
+                    </div>
+                    <a href="phaivo_chitiet.html" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-4">
+
+                <div class="qrt-team-member">
+                  <a href="about-me.html" class="qrt-cursor-scale qrt-team-item qrt-anima-link">
+                    <img src="img/team/daidongphuc.jpg" alt="team member">
+                  </a>
+                  <div class="qrt-team-member-description">
+                    <div class="qrt-member-name">
+                      <h4 class="qrt-white qrt-qrt-mb-5">ĐAI VÀ ĐỒNG PHỤC VỊNH XUÂN</h4>
+                    </div>
+                    <a href="phaivo_chitiet.html" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 textjst qrt-mb-40">
+                <h3 class="qrt-mb-40">lịch sử vịnh xuân quyền:</h3>
+                <p class="qrt-mb-20">Môn phái Vịnh Xuân do Đại Sư Chưởng Môn Nam Anh truyền dạy có nguồn gốc từ Thiếu Lâm Tự, nơi đã sản sinh ra nhiều võ phái thuộc Phật Môn…</p>
+                <h5 class="qrt-mb-20">Nguồn gốc của Võ Thuật:</h5>
+                <p class="qrt-mb-20">Cội nguồn của võ thuật có thể được thấy bàng bạc qua các bản cổ văn có từ thời Xuân Thu Chiến Quốc, trong đó có nhắc đến những kỹ thuật chiến đấu bằng tay không và binh khí. Các truyện kể về chiến trận thời ấy cho thấy từ xa xưa đã tồn tại những đạo quân tinh nhuệ được tổ chức qui củ với những kỹ thuật chiến đấu rất lợi hại. Xuất phát từ yêu cầu phục vụ quốc phòng, các kỹ thuật chiến đấu bài bản được truyền dạy từ các kỳ nhân dị sĩ do triều đình bổ nhiệm vào công tác huấn luyện quân sĩ, vào thời đại đó chưa có những môn phái võ thuật đúng nghĩa. Phải đến nhiều thế kỷ sau đó mới xuất hiện các môn phái thực sự tức là phải có một hệ thống xuyên suốt, tổ chức khoa học đúng với chức năng lưu truyền và xiển dương Võ Học.</p>
+                <h5 class="qrt-mb-20">Tổ Sư Bồ Đề Đạt Ma:</h5>
+                <p class="qrt-mb-20">Sự xuất hiện của hai đại môn phái võ thuật đầu tiên, Thiếu Lâm và Võ Đang đã minh họa đậm nét ảnh hưởng sâu sắc của các tư tưởng triết học thuộc tam giáo: Phật, Lão, Khổng. Môn phái Thiếu Lâm với nền tảng triết học Phật Giáo và môn phái Võ Đang với nền tảng triết lý Lão, Trang đã lần lượt ra đời vào thế kỷ thứ VI và thế kỷ thứ XI sau Công Nguyên. Sự hình thành võ công Thiếu Lâm gắn liền với việc Bồ Đề Đạt Ma, một cao tăng uyên thâm Phật pháp người Thiên Trúc (nay là Ấn Độ) đến Trung Quốc và trụ trì tại Thiếu Lâm Tự.</br>
+                Sinh năm 483 sau Công Nguyên, Ngài là hoàng tử thứ ba con một vị vua thuộc dòng Sát đế lỵ và từ nhỏ đã được giáo dục toàn diện theo các chuẩn mực thời ấy là phải làu thông các bộ môn Nghệ Thuật, Chính Trị, Kinh Vệ Đà và cả võ công, binh thư đồ trận. Khi chưa tròn 30 tuổi, Ngài rũ áo từ bỏ cuộc sống vương giả để dốc tâm theo con đường tu hành đạt đạo. Khi đã là một thiền sư nổi danh, Ngài vân du đến Trung Quốc truyền bá Phật pháp Thiền Tông, theo gương các bậc thiền sư Thiên Trúc đã từng sang Trung Quốc từ thời Hậu Hán, Tam Quốc phân tranh. Năm 527 sau Công Nguyên, quan Tổng Đốc Quảng Châu đã tiếp Ngài tại Quang Minh Điện và sau đó tiến cửa ngài đến vua Lương Vủ Đế.</br>
+                Theo truyền thuyết, vì vua Lương Vũ Đế không hài lòng bài thuyết pháp của Bồ Đề Đạt Ma, nên thời gian Ngài lưu lại Nam Kinh quá ngắn ngủi. Ngài tiếp tục lên đường vượt sông Hán Thủy đến Lạc Dương và trụ trì tại Thiếu Lâm Tự, một ngôi chùa chỉ cách thành Lạc Dương vài dặm, chấm dứt cuộc hành trình xa xôi vạn dặm.</br>
+                Sau nhiều năm thuyết giảng Pháp môn Thiền Tông (người Nhật gọi là Zen), Bồ Đề Đạt Ma nhận thấy sức khỏe của các chư tăng quá kém khiến cho tinh thần họ không đủ minh mẫn để ngộ Đạo. Lý do là vì lối sống tu hành quá thiên về Thiền Định khiến cho thể xác trở nên bạc nhược. Lòng không vui, Ngài quyết định nhập thất trong một động đá và nhập định suốt 9 năm liền. Theo truyền thuyết, kết quả của “cửu niên diện bích” ấy là sự ra đời của 3 pho bí kíp được xem như tài liệu cổ xưa nhất minh chứng cho sự hiện hữu một hệ thống võ thuật hoàn chỉnh tại Trung Quốc.</br>
+                <p>Ba pho bí kíp này đề cập đến ba mặt của một tổng thể là con người, theo quan niệm cổ truyền của Đông Phương, tức là Tam Bảo: Tinh, Khí và Thần.</br></p>
+                + Pho thứ nhất Dịch Cân Kinh, dạy các động tác tập luyện cơ bản giúp cơ thể dẻo dai cường kiện và các kỹ thuật chiến đấu.</br>
+                + Pho thứ hai, Tẩy Tủy Kinh, dạy về tập luyện Khí Công.</br>
+                + Pho thứ ba, Thiếu Thất Lục Môn, dạy về pháp môn Kiến Tánh. Sau khi xuất động, Bồ Đề Đạt Ma liền truyền dạy các kỹ thuật rèn luyện cả thể chất lẫn tinh thần cho các vị sư, nhờ vậy sức khỏe của họ đã được cải thiện rõ rệt, sức mạnh thể chất tăng tiến giúp họ hăng say lao động và công phu tu tập thêm tinh tấn. Qua tập luyện các kỹ thuật chiến đấu, các vị sư Thiếu Lâm có khả năng chống lại bọn lục lâm cường đạo cướp bóc và cả các cuộc tấn công vào chùa chiền thời giặc giã chiến chinh.</br>
+                Trải qua bao thế kỷ lịch sử thăng trầm đầy biến động, bị phá hủy rồi được tái thiết, khi được triều đình trọng vọng, lúc bị triều đình truy sát, Thiếu Lâm Tự vẫn tồn tại và vượt qua các thủ đoạn tranh giành ảnh hưởng thế lực chính trị giữa những kẻ lợi dụng các tôn giáo Lão, Khổng, Phật để phục vụ mưu đồ của họ. Thiếu Lâm Tự ngày càng lớn mạnh về cả chính trị, kinh tế, xã hội và nổi tiếng vì tài nghệ chiến đấu của các võ tăng trừ gian diệt bạo, bênh vực dân nghèo bị ức hiếp và đã lập nên bao chiến công hiển hách.
+                </p>
+                <h5 class="qrt-mb-20">Thiếu Lâm Tự:</h5>
+                <p class="qrt-mb-20">Đầu nhà Đường, các vị sư Thiếu Lâm đã lập đại công giúp Hoàng Đế Lý Thế Dân (trị vì từ năm 626 đến 649 sau Công Nguyên) dẹp loạn soán ngôi của tể tướng Vương Thế Sung. Để trả ơn, Hoàng Đế đã cấp cho chùa một vùng đất rộng lớn và đặc cách cho phép Thiếu Lâm Tự được thành lập cả một đội quân riêng. Từ đó Thiếu Lâm Tự ngày càng danh tiếng và thịnh vượng và trở thành trung tâm huấn luyện võ thuật lớn nhất dưới các triều đại Nguyên, Minh.</br>
+                Đầu nhà Thanh, nhờ chính sách khuyến khích phát triển mọi tôn giáo của Hoàng Đế Khang Hy (trị vì từ năm 1661 đến năm 1722), Thiếu Lâm Tự càng hùng mạnh, rất đông người nghe danh tìm đến xin học. Trong số ấy, có không ít người hoạt động “phản Thanh phục Minh”. Với võ công lợi hại học được từ Thiếu Lâm Tự, những người ấy trở thành một mối đe dọa nghiêm trọng cho triều đình. Vì thế, Khang Hy Hoàng Đế đã thẳng tay trấn áp chùa Thiếu Lâm khi phát hiện nơi này là một trung tâm hoạt động chống triều đình.</br>
+                Đời Hoàng Đế Càn Long (cháu nội Khang Hy, 1736-1796), triều đình cũng nhiều lần đem quân tấn công Thiếu Lâm Tự. Về sau, do tình hình diễn biến phức tạp, ngày càng có thêm nhiều bang, hội “phản Thanh phục Minh” ít nhiều đều dính dáng đến Thiếu Lâm Tự và nhất là bị nội gián của triều đình xâm nhập nên chùa đã bị thiêu hủy hoàn toàn, các tăng ni bị tàn sát đẫm máu. Chỉ có 5 vị Đại Sư Thiếu Lâm tức Ngũ Đại Cao Thủ thoát được kiếp nạn ấy là Chí Thiện, Phùng Đạo Đức, Miêu Hiển, Bạch Mi và Ngũ Mai.
+                </p>
+                <h5 class="qrt-mb-20">Ngũ Đại Cao Thủ:</h5>
+                <p class="qrt-mb-20">Năm nhân vật võ công cái thế nhuộm màu huyền thoại này chính là Tổ Sư của đa số các môn phái võ thuật nổi tiếng ngày nay. Sống vào thời kỳ sôi động nhất về võ thuật, các bậc Đại Sư này buộc phải cải biên các phương pháp cổ điển trước yêu cầu cấp bách về đào tạo chiến đấu trong thời gian ngắn nhất. Do đó nhiều võ phái mới đã ra đời, một số chủ trương sử dụng các thủ pháp hữu hiệu nhất, một số khác nhắm vào đường lối tập luyện nhanh nhất. Các võ phái mới này có thể sáng tạo nhiều kỹ thuật khác nhau hoặc chỉ chuyên luyện riêng một số kỹ thuật. Trong 5 vị Đại Cao Thủ thì Đại Sư Ngũ Mai chính là mối nối giữa môn phái Vịnh Xuân với võ công Thiếu Lâm Tự.
+                </p>
+                <h5 class="qrt-mb-20">Nghiêm Vịnh Xuân:</h5>
+                <p class="qrt-mb-20">Sau khi Thiếu Lâm Tự bị thiêu hủy, Ngũ Mai Đại Sư lánh nạn về phương Nam, nay ngụ chùa này, mai trú chùa khác thuộc địa phận các tỉnh Phúc Kiến, Hồ Nam nhằm tránh sự truy bắt của quan binh Thanh triều.</br>
+                Một hôm, tại một ngôi làng kế cận, Đại sư đã gặp một thiếu nữa trẻ đẹp tên là Nghiêm Vịnh Xuân. Tên của cô, dù không thể xác định là tên khai sinh hay biệt hiệu trong môn phái, có nghĩa là “tôn vinh mùa Xuân” và đã đánh dấu một kỷ nguyên mới trong lãnh vực võ thuật. Truyền thuyết phổ biến nhất về bà Nghiêm Vịnh Xuân kể rằng bà là một thiếu nữ tuyệt đẹp, con gái của một người buôn bán đậu phụ tên Nghiêm Chí. Một ngày nọ, một viên quan địa phương rắp tâm ép bà làm vợ nhưng đã bị bà cự tuyệt nên đã bắt giam phụ thân bà vào ngục.</br>
+                Do cơ duyên gặp Ngũ Mai Đại Sư, bà đã được Đại Sư thu nhận làm đệ tử. Việc hôn sự được hoãn lại đã giúp bà học được võ công chân truyền. Trở về làng, bà tuyên bố không chấp nhận lấy một người mà tài nghệ lại kém hơn bà. Tưởng bở, tên quan nhận ngay lời thách đấu và đã bị thảm bại dưới tay bà.</br>
+                Tuy nhiên, tên tiểu nhân đã tìm cách hãm hại cha của bà khiến bà phải trốn đi và tìm đến sư phụ Ngũ Mai. Suốt nhiều năm ròng rã, bà đã được Đại Sư truyền thụ cho võ công tuyệt học. Tạm biệt sư phụ, bà đã tích cực tham gia chiến đấu “phản Thanh phục Minh” và nổi tiếng với võ công cao siêu. Bà thành thân với Lương Bá Cầu, một cao thủ xuất thân từ Thiếu Lâm Tự vốn là đệ tử của Chí Thiện Đại Sư. Được bà truyền thụ võ công học từ Ngũ Mai Đại Sư, ông đã phát triển môn võ công này thành phái Thiếu Lâm Vịnh Xuân để tưởng nhớ đến bà…
+                </p>
+                <div class="">
+                  <p class="qrt-mb-30"></p>
+                  <h5 class="qrt-mb-20">THÍCH & CHIA SẺ THÔNG TIN!!!</h5>
+                  <div class="buttons">
+                    <div class="fb-like" data-href="https://www.facebook.com/vxpfanpage" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+                    <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 55px; height: 20px;" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.0edc1ef9f8b82d9b79c6115bda79f63f.vi.html#dnt=false&amp;id=twitter-widget-0&amp;lang=vi&amp;original_referer=https%3A%2F%2Fvinhxuanphai.com%2Fkhi-cong-luan.html&amp;size=m&amp;text=Kh%C3%AD%20C%C3%B4ng%20Lu%E1%BA%ADn%20-%20V%E1%BB%8Bnh%20Xu%C3%A2n%20Ph%C3%A1i&amp;time=1616043818166&amp;type=share&amp;url=https%3A%2F%2Fvinhxuanphai.com%2Fkhi-cong-luan.html" data-url="https://vinhxuanphai.com/khi-cong-luan.html"></iframe>
+
+                    <div style="position: absolute; width: 450px; left: -10000px;" id="___plusone_0">
+                      <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0" vspace="0" width="100%" id="I0_1616043817717" name="I0_1616043817717" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;hl=vi&amp;origin=https%3A%2F%2Fvinhxuanphai.com&amp;url=https%3A%2F%2Fvinhxuanphai.com%2Fkhi-cong-luan.html&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_GB.00eA87VqQ80.O%2Fam%3DwQ%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAGLTcCM-VI8JCWxJu7YH9of8jRZGgvQS4g%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1616043817717&amp;_gfid=I0_1616043817717&amp;parent=https%3A%2F%2Fvinhxuanphai.com&amp;pfname=&amp;rpctoken=71622941" data-gapiattached="true"></iframe>
+                    </div>
+                    <div class="g-plusone" data-size="medium" data-gapiscan="true" data-onload="true" data-gapistub="true"></div>
+                      <script type="text/javascript">
+                        window.___gcfg = {lang: 'vi'};
+
+                        (function() {
+                          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                          po.src = 'https://apis.google.com/js/platform.js';
+                          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                        })();
+                      </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="qrt-call-to-action">
+                  <h4>GHI DANH</h4>
+                  <a class="qrt-btn qrt-btn-sm qrt-btn-color qrt-cursor-scale qrt-anima-link" href="dangky.html"><span>ĐĂNG KÝ NHANH</span></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div id="fixed" class="qrt-right">
+            <div class="qrt-half-banner qrt-left-align qrt-animated-show">
+              <div class="qrt-image-frame">
+                <img src="img/banners/banner1.jpg" alt="banner">
+              </div>
+              <div class="qrt-overlay">
+                <div class="qrt-scroll-hint">
+                  <span></span>
+                </div>
+                <div class="qrt-banner-title">
+                  <h2 class="qrt-white qrt-mb-10">VỊNH XUÂN QUYỀN</h2>
+                  <div class="qrt-divider-2"></div>
+                  <div class="qrt-text qrt-white qrt-mb-20">Nghệ thuật cảm nhận chuyển động của đối thủ.</div>
+                  <a href="lienhe.html" class="qrt-btn qrt-btn-md qrt-btn-color qrt-anima-link"><span>LIÊN HỆ</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- anime js -->
+  <script src="js/plugins/anime.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- progressbar js -->
+  <script src="js/plugins/progressbar.min.js"></script>
+  <!-- smooth scrollbar js -->
+  <script src="js/plugins/smooth-scrollbar.min.js"></script>
+  <!-- overscroll js -->
+  <script src="js/plugins/overscroll.min.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- swup js -->
+  <script src="js/plugins/swup.min.js"></script>
+  <!-- mapbox js -->
+  <script src="js/plugins/mapbox.min.js"></script>
+
+  <!-- main js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
